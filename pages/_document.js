@@ -5,7 +5,10 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head >
-				<Script src="https://widget.agentzee.ai/chat/widgets.js?agentId=4a065de0-58ce-4d33-9f0d-d28187d764cd"></Script >
+				<script
+					src="https://widget.agentzee.ai/chat/widgets.js?agentId=4a065de0-58ce-4d33-9f0d-d28187d764cd"
+					async
+					></script>
 			</Head>
 			<body className="antialiased">
 				<Main />
